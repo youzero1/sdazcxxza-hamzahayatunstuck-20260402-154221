@@ -1,0 +1,30 @@
+{
+  "name": "about-us-webpage",
+  "version": "1.0.0",
+  "description": "A modern About Us webpage built with HTML and CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "live-server --port=3000 --open=index.html",
+    "build": "echo \"Static site - no build step required\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0"
+  },
+  "keywords": [
+    "about-us",
+    "html",
+    "css",
+    "static-site",
+    "webpage"
+  ],
+  "author": "NovaTech",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
